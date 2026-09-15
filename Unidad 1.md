@@ -1,3 +1,4 @@
+### Actividad 1.1 
 ¿Qué espera aprender de la materia?
 Espero aprender las bases para diseñar y entrenar modelos con inteligencia artificial y entender como funcionan los algoritmos detrás y ver como integrarlos en aplicaciones reales
 
