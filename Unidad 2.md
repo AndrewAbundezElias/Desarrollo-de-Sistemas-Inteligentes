@@ -4,7 +4,6 @@
 - **T:** Clasificar un correo electrónico entrante como "Spam" o "No Spam" (Deseado).
 - **P:** Porcentaje de correos clasificados correctamente sobre el total recibido (Precisión).
 - **E:** Un conjunto de miles de correos previos ya marcados explícitamente por usuarios como "Spam" o "Deseado", junto con su texto y remitente.
-
 ### Ejemplo 2: Diagnóstico médico por imágenes
 
 - **T:** Detectar si una radiografía de tórax muestra presencia de neumonía o no.
@@ -27,7 +26,6 @@ sobreajuste(overfitting): Problema que ocurre cuando un modelo de machine learni
 
 -Falso Positivo: Ocurre cuando un sistema, prueba o evaluación indica que algo si esta presente o ha sucedido, cuando en realidad no es asi 
 -Falso Negativo: Ocurre cuando un sistema indica que algo no esta presente o ha sucedido, cuando en realidad si esta presente
-
 
 Actividad 2.4
 
