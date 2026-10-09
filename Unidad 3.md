@@ -47,4 +47,8 @@ Propiedad que asegura que el algoritmo devolverá la solución con el menor cost
 Medida del número de nodos generados o explorados por el algoritmo antes de hallar una solución, expresada en función del factor de ramificación (b) y la profundidad (d).
 - Complejidad en espacio:
 Cantidad de memoria requerida por el algoritmo durante la ejecución, determinada principalmente por el número máximo de nodos almacenados simultáneamente en la frontera.
-
+![[Pasted image 20261008181637.png]]
+![[Pasted image 20261008181241.png]]
+![[Pasted image 20261008181410.png]]
+![[Pasted image 20261008181523.png]]![[Pasted image 20261008181523 1.png]]
+Es lo mismo porque el costo es lo mismo si el costo cambiara seria diferente 
