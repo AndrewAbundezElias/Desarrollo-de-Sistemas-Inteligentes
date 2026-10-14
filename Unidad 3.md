@@ -68,3 +68,4 @@ Manhattan:1.0000ms
 Breadth-first-search:2.0000ms
 ¿Que diferencia observas?
 Que uno es mas rapido que el otro ya que permite las diagonales y asi puede cortar el paso 
+y asi seria la ruta mas optima 
