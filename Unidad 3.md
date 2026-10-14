@@ -53,4 +53,18 @@ Cantidad de memoria requerida por el algoritmo durante la ejecución, determinad
 ![[Pasted image 20261008181241.png]]
 ![[Pasted image 20261008181410.png]]
 ![[Pasted image 20261008181523.png]]![[Pasted image 20261008181523 1.png]]
-Es lo mismo porque el costo es lo mismo si el costo cambiara seria diferente 
+Es lo mismo porque el costo es el mismo, si el costo cambiara seria diferente dijkstra
+
+Actividad 3.2
+Compara en la pagina dos algoritmos (A*) y uno ciego. Contestar las siguientes preguntas:
+![[Pasted image 20261014155518.png]]
+![[Pasted image 20261014155636.png]]
+![[Pasted image 20261014155721.png]]
+¿Que longitud tiene cada algoritmo?
+Manhattan:30
+Breadth-first-search:24.73
+¿Cuanto tiempo se tardo cada algoritmo?
+Manhattan:1.0000ms
+Breadth-first-search:2.0000ms
+¿Que diferencia observas?
+Que uno es mas rapido que el otro ya que permite las diagonales y asi puede cortar el paso 
