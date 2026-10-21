@@ -69,3 +69,37 @@ Breadth-first-search:2.0000ms
 ¿Que diferencia observas?
 Que uno es mas rapido que el otro ya que permite las diagonales y asi puede cortar el paso 
 y asi seria la ruta mas optima 
+
+Actividad 3.3
+
+1.⁠ ⁠Tipos de aprendizaje automático
+Aprendizaje supervisado: Los algoritmos aprenden a partir de datos que ya están etiquetados (es decir, tienen la respuesta correcta conocida). Su objetivo es predecir o clasificar nuevos datos basándose en ese entrenamiento previo.
+Aprendizaje sin supervisión: El modelo analiza datos que no tienen etiquetas ni respuestas previas. Su propósito es explorar la información, agruparla y descubrir patrones o relaciones ocultas por sí mismo.
+Aprendizaje de refuerzo: Un agente aprende a tomar decisiones interactuando directamente con un entorno. Lo hace a través de un sistema de prueba y error, recibiendo recompensas o castigos para descubrir cuál es la acción óptima y lograr un objetivo específico.
+2.⁠ ⁠Tarea (T) y Experiencia (E) en Conducción Automática
+Tarea (T): Controlar la dirección, aceleración y frenado del vehículo en tiempo real para navegar de forma segura por la carretera sin intervención humana.
+Experiencia (E): El conjunto masivo de datos recopilados por los sensores del vehículo (cámaras, radares, LiDAR) y la retroalimentación continua de situaciones de tráfico reales pasadas que el sistema procesa para aprender a reaccionar ante obstáculos, peatones y señales.
+3.⁠ ⁠Cuándo usar ML vs. Reglas tradicionales
+¿Cuándo conviene usar ML? Cuando se manejan volúmenes masivos de datos estadísticos complejos, dinámicos o no estructurados donde las reglas lógicas tradicionales ("si pasa X, haz Y") se vuelven imposibles de programar o mantener porque los patrones cambian constantemente.
+Ejemplo donde NO convendría: El cálculo de impuestos fijos o la aplicación de una fórmula matemática exacta y estática (como calcular el área de un rectángulo o una simple conversión de unidades). Usar ML aquí sería innecesario, costoso y propenso a errores que un código determinista resuelve al 100%.
+4.⁠ ⁠Detección de fraudes y anomalías con enfoques no supervisados
+Por qué tiene sentido el enfoque no supervisado: Los fraudes graves suelen ser completamente nuevos, extraños y atípicos (por lo que no hay suficientes ejemplos históricos etiquetados como "fraude"). Un modelo no supervisado simplemente busca desviaciones o comportamientos anómalos frente a lo que considera el patrón habitual, sin necesidad de saber de antemano qué forma tendrá el fraude.
+El problema del modelo supervisado: Requeriría un volumen enorme de ejemplos previos de fraude exacto para aprender a reconocerlos. Si surge una nueva modalidad de fraude que el modelo no vio durante su entrenamiento (lo cual es muy común), el sistema no lo detectará y pasará desapercibido como un falso negativo.
+5.⁠ ⁠Análisis en el sector de la salud (Diagnóstico médico)
+¿Qué error es peor? El falso negativo (es decir, que el modelo indique que un paciente está sano cuando en realidad tiene una enfermedad grave, como cáncer o insuficiencia cardíaca).
+Por qué: Un falso positivo genera una falsa alarma que se puede corregir con exámenes médicos adicionales (molesto, pero seguro). En cambio, un falso negativo retrasa o evita el tratamiento médico crucial, lo que puede poner en riesgo la vida del paciente al no detectarse la enfermedad a tiempo.
+6.⁠ ⁠Análisis de caso: Amazon
+Datos que utiliza el sistema: Historial de navegación, compras previas, artículos añadidos a la cesta, búsquedas realizadas, tiempo de permanencia en las páginas de producto y el comportamiento de compra de millones de usuarios similares (filtrado colaborativo).
+Quién se beneficia:
+La empresa (Amazon): Incrementa sus ventas, retiene a los usuarios y optimiza su inventario.
+El usuario: Encuentra productos relevantes de manera rápida y sin esfuerzo.
+Quién podría salir perjudicado: El usuario, debido a la privacidad. Sus hábitos de consumo son rastreados y analizados constantemente, lo que puede vulnerar su intimidad digital o manipular sus decisiones de compra mediante sesgos comerciales (publicidad invasiva o compras impulsivas).
+7.⁠ ⁠Lectura crítica del artículo
+Dos elementos que generan dudas sobre la información son:
+Incongruencia numérica en el título: El título promete "12 aplicaciones y ejemplos exitosos de aprendizaje automático", pero a lo largo del texto solo se listan o desarrollan de forma general 11 industrias/aplicaciones principales antes de pasar a los casos comerciales propios.
+Promoción comercial sesgada: El artículo es un texto de marketing redactado por la propia empresa desarrolladora (Helpware Tech), por lo que las cifras de éxito presentadas (como "6X CTR" o "mejor precisión de pronóstico (80%)") son autorreferenciales y carecen de una auditoría externa o metodología transparente que explique cómo se midieron.
+Qué se le pediría al autor para confiar más:
+Metodologías detalladas y métricas de validación independientes (como matrices de confusión o pruebas en entornos de control reales) que respalden los porcentajes de mejora anunciados.
+Casos de estudio documentados con la participación o el testimonio directo de los clientes reales que contrataron el servicio, en lugar de descripciones generales comerciales.
+
+Actividad 3.4
