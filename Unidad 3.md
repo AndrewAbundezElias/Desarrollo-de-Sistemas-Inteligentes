@@ -103,3 +103,19 @@ Metodologías detalladas y métricas de validación independientes (como matrice
 Casos de estudio documentados con la participación o el testimonio directo de los clientes reales que contrataron el servicio, en lugar de descripciones generales comerciales.
 
 Actividad 3.4
+
+¿Cómo se benefician las Redes Neuronales de las GPUs?
+
+- **Procesamiento paralelo:** Sus miles de núcleos ejecutan múltiples operaciones sencillas simultáneamente (como multiplicación de matrices), algo que una CPU no puede hacer a esa escala.
+- **Velocidad de entrenamiento:** Reducen el tiempo de aprendizaje de los modelos de IA de meses a solo días u horas.
+- **Hardware especializado:** Cuentan con núcleos dedicados (_Tensor Cores_) diseñados específicamente para acelerar los cálculos de inteligencia artificial.
+
+¿Cómo se benefician las GPUs de las Redes Neuronales?
+
+- **Evolución del mercado:** La demanda de IA impulsó a las fabricantes de GPUs a liderar el mercado de centros de datos y convertirse en las empresas más valiosas del mundo.
+- **Mejora en videojuegos:** Utilizan IA (como NVIDIA DLSS o AMD FSR) para reescalar imágenes en tiempo real y aumentar el rendimiento sin perder calidad visual.
+- **Trazado de rayos inteligente:** Aplican redes neuronales para limpiar el ruido gráfico y simular la iluminación en tiempo real de forma más eficiente.
+
+Actividad 3.5
+
+![[Pasted image 20261021163323.png]]
